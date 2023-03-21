@@ -1,0 +1,67 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+.container {
+    margin: 0px 50px;
+}
+figure img {
+    width: 230px;
+    height: 90px;
+    margin-left: 20px;
+    padding-left: 30px;
+}
+.header {
+    background-image: url(bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+    transition: color 0.7 linear;
+}
+.nav-item:hover{
+    color: aqua;
+}
+.cart {
+    color: aqua;
+    height: 30px;
+    padding-right: 25px;
+    border-right: 1px solid #ffffff;
+    position: relative;
+}
+.cart img{
+    top: -35px;
+    position: relative;
+    width: 97.3125px;
+    height: 97.3125px;
+}
+.button {
+    background-color: darkgreen;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 14px 18px;
+    margin-left: 35px;
+    transition: background-color 0.3s linear;
+    opacity: 90%;
+}
+.button:hover {
+    background-color: darkturquoise;
+}
